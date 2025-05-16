@@ -1,4 +1,4 @@
-const AuditLog = require("../models/AuditLog");
+const AuditLog = require("../../models/AuditLog");
 
 const auditLogger = (actionType, model, description) => {
   return async (req, res, next) => {
